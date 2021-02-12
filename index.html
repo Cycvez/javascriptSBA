@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Skill Based Assesment</title>
+
+    <!--icons used "icofont"-->
+    <link href="assets/css/icofont/icofont.min.css" rel="stylesheet">
+    <!--Bootstrap-->
+    <link href="assets/css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!--CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/img/tothemoon.png" rel="icon">
+    
+    <script>
+        function doesntWork() {
+            alert("Sorry this is out of order at the moment!");
+        }
+    </script>
+
+</head>
+
+<body>
+    <!-- ======= Top Bar ======= -->
+    <section id="topbar" class="d-none d-lg-block">
+        <div class="container d-flex">
+            <div class="contact-info mr-auto">
+                <i class="icofont-envelope"></i><a href="mailto:cycvez@gmail.com">Quocs@Email.com</a>
+                <i class="icofont-phone">(111)222-3333</i>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= Header ======= -->
+    <header id="header">
+        <div class="container d-flex">
+
+            <div class="logo mr-auto">
+                <h1 class="text-light"><a href="index.html">Quocs BarberShop</a></h1>
+
+            </div>
+
+            <nav class="nav-menu d-none d-lg-block">
+                <ul>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="location.html">Location</a></li>
+                    <li onclick="doesntWork();"><a>Book Apointement</a></li>
+                    <li class="drop-down"><a href="">Work Done</a>
+                        <ul>
+                            <li><a href="https://www.instagram.com/p/CIgIYLVH0yI/?utm_source=ig_web_copy_link"
+                                    target="blank">Jacob</a></li>
+                            <li><a href="https://www.instagram.com/p/CImt_7pnuSq/?utm_source=ig_web_copy_link"
+                                    target="blank">Osvaldo</a></li>
+                            <li><a href="https://www.instagram.com/p/CJKVa9IADoQ/?utm_source=ig_web_copy_link"
+                                    target="blank">Mauro</a></li>
+                            <li><a href="https://www.instagram.com/p/CJCaTRdgKMU/?utm_source=ig_web_copy_link"
+                                    target="blank">Samuel</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">Contact Me</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!---->
+
+    <section id="slideshow-section" class="d-flex flex-column justify-content-end align-items-center">
+        <div class="slideshow">
+
+            <!-- Slide 1 -->
+            <div class="slideshow-container active">
+                <div class="slideshow-item">
+                    <h2>Quocs BarberShop</h2>
+                    <img src="assets/img/barberSlideThree.jpg" style="width:100%">
+                    <div class="centered">
+                        <p>My long time friend and Barber asked me to create a website for him awhile ago. I thought
+                            what a
+                            great way to get a start on his website and complete my skill based assessment for
+                            TEKsystems.
+                            So this by no means will be the finished product for my friend, but its a great start
+                            and a
+                            great template I can expand on in the future.
+                        </p>
+                    </div>
+                    <a href="#about" class="btn-get-started">Read More</a>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="slideshow-container">
+                <div class="slideshow-item">
+                    <h2>Some Picture</h2>
+                    <img src="assets/img/barberSlideTwo.jpg" style="width:100%">
+                    <div class="centered">
+                        <p>TEKsystems so far has been great! most of the stuff we've covered I already had previous
+                            experience on so its been pretty smooth thus far. I will say that Javascript is what Im
+                            least
+                            familiar with so I did learn quite a bit this week! CSS and HTML are my least favorite as I
+                            prefer logic based work. So the back end suits me best!
+                        </p>
+                    </div>
+                    <a href="#about" class="btn-get-started">Read More</a>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="slideshow-container">
+                <div class="slideshow-item">
+                    <h2>Also random Picture</h2>
+                    <img src="assets/img/barberSlideOne.jpg" style="width:100%">
+                    <div class="centered">
+                        <p>Im excited to learn more about tomcat server and it'll be nice working with an IDE ive never
+                            worked with before. That being eclipse. I have done a lot of java work in the past but used
+                            NetBeans as an IDE. Ive heard Eclipse is more widely used so it should be fun learning about
+                            that! Lastly, Young is a great instructor!
+                        </p>
+                    </div>
+                    <a href="#about" class="btn-get-started">Read More</a>
+                </div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">
+                <span class="icofont-simple-left"></span>
+            </a>
+            <a class="next" onclick="plusSlides(1)">
+                <span class="icofont-simple-right"></span>
+            </a>
+        </div>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </section>
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="container">
+            <h3>Quocs BarberShop</h3>
+            <div class="copyright">
+                &copy; Copyright <strong><span>CarlosCoding</span></strong>. All Rights Reserved
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- JavaScript File -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

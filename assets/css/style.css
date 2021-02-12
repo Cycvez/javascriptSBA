@@ -1,0 +1,448 @@
+
+/*---General-----*/
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+  }
+  
+  a {
+    color: #1f5297;
+  }
+  
+  a:hover {
+    color: #38b2eb;
+    text-decoration: none;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+  }
+
+/*---Top Bar-----*/
+
+#topbar {
+    background: #1c1c1c;
+    padding: 10px 0;
+    font-size: 14px;
+    color: #9b9b9b;
+  }
+  
+  #topbar .contact-info a {
+    line-height: 1;
+    color: #9b9b9b;
+    transition: 0.3s;
+  }
+  
+  #topbar .contact-info a:hover {
+    color: #fff;
+  }
+  
+  #topbar .contact-info i {
+    color: #9b9b9b;
+    padding: 4px;
+  }
+  
+  #topbar .contact-info .icofont-phone {
+    padding-left: 20px;
+  }
+  
+  #topbar .social-links a {
+    color: #9b9b9b;
+    padding: 4px 0 4px 15px;
+    display: inline-block;
+    line-height: 1px;
+    transition: 0.3s;
+  }
+  
+  #topbar .social-links a:hover {
+    color: white;
+  }
+  
+  #topbar .social-links a:first-child {
+    border-left: 0;
+  }
+  
+
+/*---Header-----*/
+
+
+  #header {
+    height: 70px;
+    transition: all 0.5s;
+    z-index: 997;
+    transition: all 0.5s;
+    padding: 10px 0;
+    background: #0f0f0f; 
+  }
+  
+  #header .logo h1 {
+    font-size: 28px;
+    margin: 0;
+    padding: 11px 0;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  #header .logo h1 a, #header .logo h1 a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #header .logo img {
+    padding: 0;
+    margin: 0;
+    max-height: 40px;
+  }
+
+/*---nav bar-----*/
+
+.nav-menu, .nav-menu * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .nav-menu > ul > li {
+    position: relative;
+    white-space: nowrap;
+    float: left;
+  }
+  
+  .nav-menu a {
+    display: block;
+    position: relative;
+    color: #fff;
+    padding: 14px 0 12px 25px;
+    transition: 0.3s;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+    color: #1f5297;
+    text-decoration: none;
+  }
+  
+  .nav-menu .drop-down ul {
+    display: block;
+    position: absolute;
+    left: 25px;
+    top: 100%;
+    z-index: 99;
+    opacity: 0;
+    visibility: hidden;
+    padding: 10px 0;
+    background: #fff;
+    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+    transition: ease all 0.3s;
+    border-radius: 5px;
+  }
+  
+  .nav-menu .drop-down:hover > ul {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .nav-menu .drop-down li {
+    min-width: 180px;
+    position: relative;
+  }
+  
+  .nav-menu .drop-down ul a {
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: none;
+    color: #353535;
+  }
+  
+  .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
+    color: #1f5297;
+  }
+  
+  .nav-menu .drop-down > a:after {
+    content: "\ea99";
+    font-family: IcoFont;
+    padding-left: 5px;
+  }
+  
+  .nav-menu .drop-down .drop-down ul {
+    top: 0;
+    left: 100%;
+  }
+  
+  .nav-menu .drop-down .drop-down:hover > ul {
+    opacity: 1;
+    top: 0;
+  }
+  
+  .nav-menu .drop-down .drop-down > a {
+    padding-right: 35px;
+  }
+  
+  .nav-menu .drop-down .drop-down > a:after {
+    content: "\eaa0";
+    font-family: IcoFont;
+    position: absolute;
+    right: 15px;
+  }
+
+  /*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+
+  #slideshow-section, #location {
+    width: 100%;
+    position: relative;
+    background: linear-gradient(0deg, #2a2c39 0%, #33364a 100%);
+    padding: 0;
+  }
+
+  .slideshow{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+
+  /* .slideshow-container {
+      why wont it workkkkkk uhhhhhhhhghghghghghghghghghgh
+    display: none;
+  } */
+  
+  #slideshow-section .slideshow-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    height: 70vh;
+    padding-top: 60px;
+  }
+  
+  #slideshow-section h2 {
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 48px;
+    font-weight: 700;
+  }
+  
+  /* #slideshow-section p {
+    width: 70%;
+    margin: 0 auto 30px auto;
+    color: #fff;
+  } */
+  
+  #slideshow-section .prev, #slideshow-section .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    
+}
+.centered p {
+    font-weight: bold;
+    color: #001fac;
+}
+
+
+
+
+  h2 {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }  
+
+  
+  /* Fading animation 
+  
+  DIDNT WORK GRRRRR >:(
+
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  } */
+  
+  #slideshow-section .btn-get-started {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 50px;
+    transition: 0.5s;
+    line-height: 1;
+    margin: 10px;
+    color: #fff;
+    border: 2px solid #1f5297;
+  }
+  
+  #slideshow-section .btn-get-started:hover {
+    background: #1f5297;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  /*-- contact --*/
+
+  .contact .info {
+    width: 100%;
+    background: #fff;
+  }
+  
+  .contact .info i {
+    font-size: 20px;
+    color: #1f5297;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background:#ecf3f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+  }
+  
+  .contact .info h4 {
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #353535;
+  }
+  
+  .contact .info p {
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #686868;
+  }
+  
+  .contact .info .email, .contact .info .phone {
+    margin-top: 40px;
+  }
+  
+  .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+    background: #1f5297;
+    color: #fff;
+  }
+  
+  .contact-form {
+    width: 100%;
+    background: #fff;
+  }
+  
+  .contact .contact-form .form-group {
+    padding-bottom: 8px;
+  }
+  
+  
+  .contact .contact-form, .contact .contact-form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+  }
+  
+  .contact .contact-form input {
+    height: 44px;
+  }
+  
+  .contact .contact-form textarea {
+    padding: 10px 12px;
+  }
+  
+  .contact .contact-form button[type="submit"] {
+    background: #1f5297;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    border-radius: 50px;
+  }
+  
+  .contact .contact-form[type="submit"]:hover {
+    background: #38b2eb;
+  }
+  
+/* ---footer--- */
+#footer{
+color: rgb(0, 0, 0);
+font-size: 14px;
+text-align: center;
+position: relative;
+margin-top: 30px;
+}
+
+/* ---footer---*/
+
+/* ---book appointment---*/
+
+.heading{
+    max-width: 960px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
